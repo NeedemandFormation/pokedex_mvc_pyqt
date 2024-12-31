@@ -19,10 +19,10 @@ Les signaux et slots connectent les événements (par exemple, clics) à des act
 
 Points importants
 
-    - Un signal peut être connecté à plusieurs slots. Tous les slots seront appelés lorsque le signal est émis.
-    - Un slot peut être connecté à plusieurs signaux.
-    - Vous pouvez déconnecter un signal d’un slot à l’aide de disconnect() : obj.my_signal.disconnect(my_slot)
-    - Les signaux et slots peuvent transmettre des données : Si un signal émet un argument, le slot doit l'accepter dans sa signature.
+- Un signal peut être connecté à plusieurs slots. Tous les slots seront appelés lorsque le signal est émis.
+- Un slot peut être connecté à plusieurs signaux.
+- Vous pouvez déconnecter un signal d’un slot à l’aide de disconnect() : obj.my_signal.disconnect(my_slot)
+- Les signaux et slots peuvent transmettre des données : Si un signal émet un argument, le slot doit l'accepter dans sa signature.
 
 ## Connection à une base de données
 
