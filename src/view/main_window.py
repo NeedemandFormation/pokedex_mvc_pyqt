@@ -14,10 +14,10 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("Liste des Pokémons")
         self.setGeometry(100, 100, 800, 600) # x, y, width, height
         self.main_layout = QVBoxLayout() 
-        self.signals = signals  
+        self.signals = signals  # Sigla et Slot de PyQt
         
         # principaux composants en attributs      
-        self.model = PokemonListModel()
+        self.model = PokemonListModel() # extends de QtModel
         self.pokemon_name_input = QLineEdit()
         self.pokemon_type_input = QLineEdit()
         self.pokemon_level_input = QLineEdit()
