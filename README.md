@@ -2,11 +2,12 @@
 
 Installation : 
 
+```
 python -m venv venv
 source venv/bin/activate  # Sur macOS/Linux
 venv\Scripts\activate     # Sur Windows
 pip install -r requirements.txt
-
+```
 
 
 ## Signal & Slot
